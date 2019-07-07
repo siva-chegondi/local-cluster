@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mail:
+    image: httpd:alpine
+    ports:
+      - "25:25"
+    volume:
+      - "/data/mail"
+    network:
+      - "" 

@@ -1,0 +1,8 @@
+# vagrant env
+.vagrant/
+
+# ignoring generated .box files
+**/*.box
+
+# ignoring binaries generated
+bin/
